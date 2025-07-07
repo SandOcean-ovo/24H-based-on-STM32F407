@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A Administrator, A, LIC=FYKYW-QI3BD-DY6V3-AGUEA-YVSY8-RL1FN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\STM32\Test\MX\OLED Move\MDK-ARM\OLED Move.uvprojx
+Project File Date:  06/30/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'OLED Move'
+compiling Motion_control.c...
+../Hardware/Odometry.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif // __ODOMETRY_H 
+../Hardware/Alert.h(38): warning:  #1-D: last line of file ends without a newline
+  #endif /* __ALERT_H */ 
+..\Software\Motion_control.c(269): warning:  #223-D: function "abs" declared implicitly
+          if (abs(current_distance) >= abs(g_target_distance_counts)) 
+..\Software\Motion_control.c(429): warning:  #223-D: function "snprintf" declared implicitly
+      snprintf(buffer, sizeof(buffer), "Left PID: Kp=%.2f, Ki=%.2f, Kd=%.2f\r\n",
+..\Software\Motion_control.c(16): warning:  #177-D: variable "is_angle_pid_inited"  was declared but never referenced
+  static uint8_t is_angle_pid_inited = 0;
+..\Software\Motion_control.c(39): warning:  #177-D: variable "TASK3_TURN_ANGLE"  was declared but never referenced
+  static const float TASK3_TURN_ANGLE = 38.66f; // 任务3转向角度, 定义为邻�?100,对边80的直角三角形锐角(较小�?): atan(80/100)
+..\Software\Motion_control.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=37792 RO-data=5648 RW-data=344 ZI-data=2344  
+FromELF: creating hex file...
+"OLED Move\OLED Move.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_OLED_Move
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
