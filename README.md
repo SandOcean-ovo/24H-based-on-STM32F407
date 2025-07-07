@@ -7,6 +7,6 @@
 - 请使用STM32CUBE MX打开OLED Move.ioc文件获得引脚定义。
 - 代码中设计到任何现实参数有关的部分均需要自己测量/调试后整定。
 
-## 实现
+## 演示效果
 见B站视频：
 https://www.bilibili.com/video/BV12egXzKEPg/?vd_source=d5e84f107d20df72b27644f18b206a7b
