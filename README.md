@@ -14,3 +14,6 @@
 ## 演示效果
 见B站视频：
 https://www.bilibili.com/video/BV12egXzKEPg/?vd_source=d5e84f107d20df72b27644f18b206a7b
+
+## 许可证
+本项目采用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件、
